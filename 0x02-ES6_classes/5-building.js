@@ -6,7 +6,7 @@ export default class Building {
       this.evacuationWarningMessage === undefined
     ) {
       throw Error(
-        "Class extending Building must override evacuationWarningMessage"
+        'Class extending Building must override evacuationWarningMessage'
       );
     }
   }
